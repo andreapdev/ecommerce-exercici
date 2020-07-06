@@ -1,0 +1,114 @@
+/* COLOR PALETTE
+#f4f6ff
+#ffcb74
+#ea907a
+#4f8a8b
+*/
+
+*{
+    margin:10px;
+    padding:10px;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style:none;
+}
+body{
+    background-color: #f4f6ff;
+    font-family: 'Montserrat', sans-serif;
+}
+    .header{
+        background-color: #4f8a8b;
+        color:#ffcb74;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        .name-header{
+            flex-grow:5;
+            font-size: 10vw;
+            font-family: 'Poiret One', cursive;
+            text-align: center;
+            
+        }
+        .header a, .nav a, .foot-newsletter a, footer a{
+            color:#f4f6ff;
+        }
+    .nav{
+        background-color: #4f8a8ba8;;
+    }
+        .search-nav{
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+            margin: 0 5px;
+            padding: 0 5px;
+        }
+            #search-bar{
+                flex-grow: 8;              
+            }
+
+        .list-nav{
+
+            display:flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 0 5px;
+            padding: 0 5px;
+            font-size: 2vw;
+            flex-wrap:wrap;
+        }
+        .list-nav li:hover{
+            border-bottom: 1px solid #f4f6ff;
+        }
+
+    .section-books{
+        border:2px solid #ffcb74;
+        border-radius:1rem;
+    }
+        .div-books{
+            display:flex;
+            flex-wrap:wrap;
+        }
+            .book-small img{
+                height:22vw;
+            }
+    .foot-newsletter{
+            
+        text-align: center;
+        background-color: #4f8a8ba8;
+    }
+    footer{
+        background-color: #4f8a8b;
+    }
+            .logo-footer{
+                display:block;
+                text-align: center;
+                margin:0 5px;
+                padding: 0 5px;
+            }
+            .list-footer{
+                display:flex;
+                justify-content: center;
+                margin: 0 5px;
+                padding: 0;
+                flex-wrap:wrap;
+            }
+                .list-footer li:hover{
+                    border-bottom: 1px solid #f4f6ff;
+                }
+            .social{
+                display:flex;
+                justify-content:center;
+                margin: 0 5px;
+                padding: 0; 
+            }
+            .copyright{
+                text-align: center;
+                margin: 0 5px;
+                padding: 0;
+            }
